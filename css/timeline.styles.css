@@ -30,7 +30,6 @@ body {
 /* header styles */
 .main-header {
 	min-height: 20vh;
-	min-width: 100vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
