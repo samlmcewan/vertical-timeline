@@ -51,7 +51,7 @@ body {
 	justify-content: flex-start;
 	align-items: center;
 	align-content: space-around;
-	background-color: #122b45;
+	/* background-color: #122b45; */
 	min-height: 5vh;
 	list-style-type: none;
 	font-size: 1.2rem;
@@ -59,8 +59,12 @@ body {
 
 .navbar a {
 	text-decoration: none;
-	color: #fff;
+	color: #0456ad;
 	margin-right: 2vw;
+}
+
+.navbar a:hover {
+	text-decoration: underline;
 }
 
 .navbar li {
@@ -174,6 +178,11 @@ body {
 	background-color: white;
 	position: relative;
 	border-radius: 6px;
+}
+
+.content img {
+	width: 100%;
+	border-radius: inherit;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
